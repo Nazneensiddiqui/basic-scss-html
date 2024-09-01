@@ -1,0 +1,17 @@
+@mixin demo{
+    background-color: pink;
+    color: blue;
+    font-style:italic ;
+    font-family: 'Courier New', Courier, monospace;}
+
+    .child1{
+        @include demo
+    }
+
+    .child2{
+        @include demo
+    }
+
+    .child3{
+        @include demo
+    }

@@ -1,0 +1,77 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ch {
+  background-color: white;
+  gap: 20px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: 80px auto;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.child1 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  gap: 20px;
+}
+
+.child1 ul li {
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: -15px;
+  font-size: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 17px;
+}
+
+.child2 {
+  height: 50px;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.child2 i {
+  position: relative;
+  right: 80px;
+}
+
+.child3 {
+  position: relative;
+  left: 290px;
+  top: 20px;
+}
+
+table th {
+  background-color: rgb(206, 206, 206);
+}/*# sourceMappingURL=dashboard.css.map */

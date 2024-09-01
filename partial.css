@@ -1,0 +1,25 @@
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  align-items: center;
+  background-color: gold;
+  color: red;
+}
+.head ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.wel {
+  background-color: pink;
+  height: 20px;
+}
+
+.head1 {
+  background-color: pink;
+  color: blue;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=partial.css.map */
